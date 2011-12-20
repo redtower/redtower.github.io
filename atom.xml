@@ -4,7 +4,7 @@
   <title><![CDATA[redtower's memo]]></title>
   <link href="http://redtower.github.com/atom.xml" rel="self"/>
   <link href="http://redtower.github.com/"/>
-  <updated>2011-12-20T14:31:16+09:00</updated>
+  <updated>2011-12-20T19:58:10+09:00</updated>
   <id>http://redtower.github.com/</id>
   <author>
     <name><![CDATA[redtower]]></name>
@@ -12,5 +12,14 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[abc]]></title>
+    <link href="http://redtower.github.com/blog/2011/12/20/abc/"/>
+    <updated>2011-12-20T19:57:00+09:00</updated>
+    <id>http://redtower.github.com/blog/2011/12/20/abc</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
 </feed>
