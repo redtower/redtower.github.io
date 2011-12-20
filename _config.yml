@@ -3,10 +3,10 @@
 # ----------------------- #
 
 url: http://redtower.github.com
-title: redtower's Octopress Blog #'
+title: redtower's memo #'
 
-subtitle: A blogging framework for hackers.
-author: Your Name
+subtitle: Linux、Ubuntu、Webツール、プログラミング、サーバ、ソフトウェアとかを設定した時の情報をあとで忘れないように（というか忘れるために）記録しておくページ
+author: redtower
 simple_search: http://google.com/search
 description:
 
