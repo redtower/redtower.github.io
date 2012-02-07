@@ -1,0 +1,8 @@
+---
+layout: post
+title: "test"
+date: 2011-12-20 16:41
+comments: true
+categories: 
+---
+hello
