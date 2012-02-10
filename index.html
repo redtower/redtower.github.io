@@ -9,8 +9,15 @@
   <meta name="author" content="redtower">
 
   
-  <meta name="description" content="hello
-">
+  <meta name="description" content="世界で重複することがない、ユニークな128bit（16byte）のランダムな数値であるGUID値を生成する。 1
+2
+3
+4
+5
+6
+7
+8
+using System; // Guid,Console class GuidSample { public static void Main( &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -83,6 +90,89 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2012/02/10/guid/">GUIDを生成する。</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-02-10T00:00:00+09:00" pubdate data-updated="true">Feb 10<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>世界で重複することがない、ユニークな128bit（16byte）のランダムな数値であるGUID値を生成する。</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>using System;               // Guid,Console
+</span><span class='line'>
+</span><span class='line'>class GuidSample {
+</span><span class='line'>    public static void Main(string[] args) {
+</span><span class='line'>        String id = Guid.NewGuid().ToString("N");
+</span><span class='line'>        Console.WriteLine(id);
+</span><span class='line'>    }
+</span><span class='line'>}</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>実行結果</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ guid.exe
+</span><span class='line'>4b1d4ca7f22b49e284753a034e673629</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Guid.ToString()の整形方法</h2>
+
+<ul>
+<li>&#8220;N&#8221; : 32桁 ⇒ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</li>
+<li>&#8220;D&#8221; : ハイフンで区切られた32桁 ⇒ xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</li>
+<li>&#8220;B&#8221; : 中かっこで囲まれ、ハイフンで区切られた32桁 ⇒ {xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}</li>
+<li>&#8220;P&#8221; : 丸かっこで囲まれ、ハイフンで区切られた32桁 ⇒ (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)</li>
+</ul>
+
+
+<p>&#8211;</p>
+
+<h2>参考</h2>
+
+<ul>
+<li><a href="http://www.atmarkit.co.jp/fdotnet/dotnettips/675generateguid/generateguid.html">GUID値を生成するには？［C#、VB］ − ＠IT</a></li>
+<li><a href="http://dobon.net/vb/dotnet/programing/guid.html">グローバル一意識別子(GUID)を取得する: .NET Tips: C#, VB.NET</a></li>
+<li><a href="http://msdn.microsoft.com/ja-jp/library/97af8hh4(v=vs.80).aspx">Guid.ToString メソッド (String) (System)</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2011/12/20/test/">Test</a></h1>
     
     
@@ -125,6 +215,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/02/10/guid/">GUIDを生成する。</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2011/12/20/test/">test</a>

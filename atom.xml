@@ -4,7 +4,7 @@
   <title><![CDATA[redtower's memo]]></title>
   <link href="http://redtower.github.com/atom.xml" rel="self"/>
   <link href="http://redtower.github.com/"/>
-  <updated>2012-02-07T17:33:43+09:00</updated>
+  <updated>2012-02-10T17:22:19+09:00</updated>
   <id>http://redtower.github.com/</id>
   <author>
     <name><![CDATA[redtower]]></name>
@@ -12,6 +12,62 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[GUIDを生成する。]]></title>
+    <link href="http://redtower.github.com/blog/2012/02/10/guid/"/>
+    <updated>2012-02-10T00:00:00+09:00</updated>
+    <id>http://redtower.github.com/blog/2012/02/10/guid</id>
+    <content type="html"><![CDATA[<p>世界で重複することがない、ユニークな128bit（16byte）のランダムな数値であるGUID値を生成する。</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>using System;               // Guid,Console
+</span><span class='line'>
+</span><span class='line'>class GuidSample {
+</span><span class='line'>    public static void Main(string[] args) {
+</span><span class='line'>        String id = Guid.NewGuid().ToString("N");
+</span><span class='line'>        Console.WriteLine(id);
+</span><span class='line'>    }
+</span><span class='line'>}</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>実行結果</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ guid.exe
+</span><span class='line'>4b1d4ca7f22b49e284753a034e673629</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Guid.ToString()の整形方法</h2>
+
+<ul>
+<li>&#8220;N&#8221; : 32桁 ⇒ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</li>
+<li>&#8220;D&#8221; : ハイフンで区切られた32桁 ⇒ xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</li>
+<li>&#8220;B&#8221; : 中かっこで囲まれ、ハイフンで区切られた32桁 ⇒ {xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}</li>
+<li>&#8220;P&#8221; : 丸かっこで囲まれ、ハイフンで区切られた32桁 ⇒ (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)</li>
+</ul>
+
+
+<p>&#8211;</p>
+
+<h2>参考</h2>
+
+<ul>
+<li><a href="http://www.atmarkit.co.jp/fdotnet/dotnettips/675generateguid/generateguid.html">GUID値を生成するには？［C#、VB］ − ＠IT</a></li>
+<li><a href="http://dobon.net/vb/dotnet/programing/guid.html">グローバル一意識別子(GUID)を取得する: .NET Tips: C#, VB.NET</a></li>
+<li><a href="http://msdn.microsoft.com/ja-jp/library/97af8hh4(v=vs.80).aspx">Guid.ToString メソッド (String) (System)</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[test]]></title>
