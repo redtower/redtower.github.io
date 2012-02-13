@@ -4,7 +4,7 @@
   <title><![CDATA[redtower's memo]]></title>
   <link href="http://redtower.github.com/atom.xml" rel="self"/>
   <link href="http://redtower.github.com/"/>
-  <updated>2012-02-13T11:28:52+09:00</updated>
+  <updated>2012-02-13T11:29:44+09:00</updated>
   <id>http://redtower.github.com/</id>
   <author>
     <name><![CDATA[redtower]]></name>
@@ -18,9 +18,7 @@
     <link href="http://redtower.github.com/blog/2012/02/10/guid/"/>
     <updated>2012-02-10T00:00:00+09:00</updated>
     <id>http://redtower.github.com/blog/2012/02/10/guid</id>
-    <content type="html"><![CDATA[<h1>GUIDを生成する。</h1>
-
-<p>世界で重複することがない、ユニークな128bit（16byte）のランダムな数値であるGUID値を生成する。</p>
+    <content type="html"><![CDATA[<p>世界で重複することがない、ユニークな128bit（16byte）のランダムな数値であるGUID値を生成する。</p>
 
 <pre><code>using System;               // Guid,Console
 
