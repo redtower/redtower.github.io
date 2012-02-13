@@ -4,7 +4,7 @@
   <title><![CDATA[redtower's memo]]></title>
   <link href="http://redtower.github.com/atom.xml" rel="self"/>
   <link href="http://redtower.github.com/"/>
-  <updated>2012-02-10T17:22:19+09:00</updated>
+  <updated>2012-02-13T11:16:45+09:00</updated>
   <id>http://redtower.github.com/</id>
   <author>
     <name><![CDATA[redtower]]></name>
@@ -66,15 +66,6 @@
 <li><a href="http://msdn.microsoft.com/ja-jp/library/97af8hh4(v=vs.80).aspx">Guid.ToString メソッド (String) (System)</a></li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[test]]></title>
-    <link href="http://redtower.github.com/blog/2011/12/20/test/"/>
-    <updated>2011-12-20T16:41:00+09:00</updated>
-    <id>http://redtower.github.com/blog/2011/12/20/test</id>
-    <content type="html"><![CDATA[<p>hello</p>
 ]]></content>
   </entry>
   
